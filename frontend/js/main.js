@@ -3,7 +3,11 @@ let monedas = ["USD", "MXN", "EUR", "ARS", "GBP", "JPY"];
 let valorMonedas = [1, 20, 0.88, 0.1, 0.75, 0.0073];
 
 // Declaro las variables fuera de los ciclos
-let monedaUno, monedaDos, valorMonedaUno, valorMonedaDos, cantidad;
+let monedaUno;
+let monedaDos;
+let valorMonedaUno;
+let valorMonedaDos;
+let cantidad;
 
 // Pedir la primera moneda hasta que sea válida o el usuario ingrese "*"
 do {
