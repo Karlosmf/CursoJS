@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coderhouse</title>
     <link rel="stylesheet" src="style.css">
 </head>
+
 <body>
-    
-    
-    <script src="./js/main.js"></script>
+    <>
+        <div>
+            <h1>Conversor de divisas</h1>
+            <p>Ingresa las monedas que desees convertir</p>
+        </div>
+
+        <div>
+            <label for="monedaUno">Moneda 1:</label>
+            <select name="monedaUno" id="monedaUno">
+                <option value="USD">USD</option>
+                <option value="MXN">MXN</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <input type="text" id="valorMonedaUno" placeholder="Valor de la moneda">
+        </div>
+
+        <div>
+            <label for="monedaDos">Moneda 2:</label>
+            <select name="monedaDos" id="monedaDos">
+                <option value="USD">USD</option>
+                <option value="MXN">MXN</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <input type="text" id="valorMonedaDos" placeholder="Valor de la moneda">
+        </div>
+
+        <button id="btnConvertir">Convertir</button>
+
+        <div id="resultado">
+            
+        
+        
+        </div>
+
+        
+
+
+        <script src="./js/main.js"></script>
 </body>
+
 </html>
